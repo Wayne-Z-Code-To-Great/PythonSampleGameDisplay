@@ -6,3 +6,8 @@
 ISBN is 9787115538246 / 7115538247\
 Fun game Python programming\
 To properly run the code, your computer should already installed python 3 and some external libraries (which you can easily install them using pip, the two libraries you need are: pygame and pgzero (pygame zero)).
+
+------------Output------------\
+boucingBallGame.py\
+![alt text](https://github.com/WayneJWZLemon/PythonSampleGameDisplay/blob/master/Output%20Pictures/outputBoucingBallGame.gif "Output #1")
+
