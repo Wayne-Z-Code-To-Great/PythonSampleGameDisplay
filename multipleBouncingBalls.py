@@ -10,6 +10,10 @@ def draw():
     for ball in balls:
         screen.draw.filled_circle((ball[0], ball[1]), ball[4], (ball[5], 
         ball[6], ball[7]))
+        for x in range(1, ball[4], 3):
+            screen.draw.filled_circle((ball[0], ball[1]),
+            ball[4]-x, (random.randint(ball[5], 255),
+            random.randint(ball[6], 255), random.randint(ball[7], 255)))
 
 
 def update():
