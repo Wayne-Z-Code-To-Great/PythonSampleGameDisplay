@@ -14,7 +14,7 @@ bar_down = Actor('bar_down')
 bar_down.x = 300
 bar_down.y = 600
 score = 0
-speed = 1
+speed = 3
 
 def draw():
     background.draw()
@@ -41,7 +41,7 @@ def update():
                 or bird.y<0 or bird.y>HEIGHT:
         print('Failed')
         score = 0
-        speed = 1
+        speed = 3
         bird.x = 50
         bird.y = HEIGHT/2
         bar_up.x = WIDTH
